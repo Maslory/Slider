@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+
+  #slider{
+    /* float: left; */
+    width: 768px;
+    height: 128px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+
+  #polosa{
+    position: relative;
+    /* background-image: url('img/6028.png_860.png'); */
+    
+    background: yellow;
+    width: 1152px;
+    left: 0;
+    transition: all ease 1.5s;
+  }
+
+  #polosa img{
+    float: left;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+  }
+
+  #polosa::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #slider button{
+    margin-top: 15px;
+    z-index: 1;
+  }
+
+  #body-slider{
+    margin-top:235px; 
+    text-align: center;
+  }
+
+  #slider-left{
+    position: relative;
+    cursor: pointer;
+    top: -47px;
+  }
+  
+  #slider-right{
+    position: relative;
+    cursor: pointer;
+    top: -47px;
+  }
+  
+  #rails{
+    position: absolute;
+    top: -19.7%;
+    z-index: 1;
+    left: 7.8%;
+    width: 1585px;
+    height: 1395px;
+  }
